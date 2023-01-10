@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, prefer_const_constructors
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, prefer_const_constructors, file_names, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
@@ -27,6 +27,7 @@ class _ListTopChartAppsState extends State<ListTopChartApps> {
               categoryApp: widget.appsItem[index]["category"],
               storageApp: widget.appsItem[index]["storage"],
               ratingApp: widget.appsItem[index]["rating"],
+              index: index,
             );
           })),
     );
@@ -39,6 +40,7 @@ class AppsItem extends StatelessWidget {
   final String categoryApp;
   final String storageApp;
   final String ratingApp;
+  final int index;
 
   const AppsItem({
     Key? key,
@@ -47,6 +49,7 @@ class AppsItem extends StatelessWidget {
     required this.categoryApp,
     required this.storageApp,
     required this.ratingApp,
+    required this.index,
   }) : super(key: key);
 
   @override
@@ -59,6 +62,10 @@ class AppsItem extends StatelessWidget {
         children: [
           Row(
             children: [
+              SizedBox(
+                width: 20,
+              ),
+              Text("${index + 1}"),
               SizedBox(
                 width: 20,
               ),

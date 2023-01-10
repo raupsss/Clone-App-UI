@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 class OfferGame {
   static const List<Map<String, dynamic>> offersGame = [
     {

@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 class GamesList {
   static const List<Map<String, dynamic>> gamesList = [
     {
@@ -6,7 +8,8 @@ class GamesList {
       "rating": "5.0",
       "category": "Arcade",
       "storage": "12 GB",
-      "price" : "Rp 999.999"
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Angry Birds",
@@ -14,7 +17,8 @@ class GamesList {
       "rating": "5.0",
       "category": "Arcade",
       "storage": "12 GB",
-      "price" : "Rp 999.999"
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Boom Beach",
@@ -22,7 +26,8 @@ class GamesList {
       "rating": "5.0",
       "category": "Arcade",
       "storage": "12 GB",
-      "price" : "Rp 999.999"
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Clash Royale",
@@ -30,7 +35,8 @@ class GamesList {
       "rating": "5.0",
       "category": "Arcade",
       "storage": "12 GB",
-      "price" : "Rp 999.999"
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Fruit Ninja",
@@ -38,7 +44,8 @@ class GamesList {
       "rating": "5.0",
       "category": "Arcade",
       "storage": "12 GB",
-      "price" : "Rp 999.999"
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Minecraft",
@@ -46,7 +53,8 @@ class GamesList {
       "rating": "5.0",
       "category": "Arcade",
       "storage": "12 GB",
-      "price" : "Rp 999.999"
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Super Mario",
@@ -54,7 +62,8 @@ class GamesList {
       "rating": "5.0",
       "category": "Arcade",
       "storage": "12 GB",
-      "price" : "Rp 999.999"
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
   ];
 }

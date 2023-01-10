@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 class AppsList {
   static const List<Map<String, dynamic>> appsList = [
     {
@@ -5,63 +7,81 @@ class AppsList {
       "image": "images/apps/blu.jpg",
       "rating": "5.0",
       "category": "Social",
-      "storage": "99 GB"
+      "storage": "99 GB",
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Dana Indonesia",
       "image": "images/apps/dana.jpg",
       "rating": "5.0",
       "category": "Social",
-      "storage": "99 GB"
+      "storage": "99 GB",
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Instagram",
       "image": "images/apps/instagram.jpg",
       "rating": "5.0",
       "category": "Social",
-      "storage": "99 GB"
+      "storage": "99 GB",
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Jago",
       "image": "images/apps/jago.jpg",
       "rating": "5.0",
       "category": "Social",
-      "storage": "99 GB"
+      "storage": "99 GB",
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "My Telkomsel",
       "image": "images/apps/my_telkomsel.jpg",
       "rating": "5.0",
       "category": "Social",
-      "storage": "99 GB"
+      "storage": "99 GB",
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Noice | Podcast, Radio",
       "image": "images/apps/noice.jpg",
       "rating": "5.0",
       "category": "Social",
-      "storage": "99 GB"
+      "storage": "99 GB",
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "OVO",
       "image": "images/apps/ovo.jpg",
       "rating": "5.0",
       "category": "Social",
-      "storage": "99 GB"
+      "storage": "99 GB",
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Tiktok",
       "image": "images/apps/tiktok.jpg",
       "rating": "5.0",
       "category": "Social",
-      "storage": "99 GB"
+      "storage": "99 GB",
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
     {
       "name": "Whatsapp",
       "image": "images/apps/whatsapp.jpg",
       "rating": "5.0",
       "category": "Social",
-      "storage": "99 GB"
+      "storage": "99 GB",
+      "price": "Rp 999.999",
+      "banner": "images/offers/angry_birds.jpg",
     },
   ];
 }

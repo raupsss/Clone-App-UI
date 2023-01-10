@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, avoid_unnecessary_containers, file_names
 
 import 'package:clone_app/constants/bookList.dart';
 import 'package:clone_app/widgets/ListBook.dart';
@@ -36,11 +36,11 @@ class _ForYouBooksState extends State<ForYouBooks> {
                 )
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListBooks(booksItem: BookList.bookList),
-            SizedBox(
+            const ListBooks(booksItem: BookList.bookList),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -51,11 +51,11 @@ class _ForYouBooksState extends State<ForYouBooks> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListBooks(booksItem: BookList.bookList),
-            SizedBox(
+            const ListBooks(booksItem: BookList.bookList),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -66,11 +66,11 @@ class _ForYouBooksState extends State<ForYouBooks> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListBooks(booksItem: BookList.bookList),
-            SizedBox(
+            const ListBooks(booksItem: BookList.bookList),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -81,11 +81,11 @@ class _ForYouBooksState extends State<ForYouBooks> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListBooks(booksItem: BookList.bookList),
-            SizedBox(
+            const ListBooks(booksItem: BookList.bookList),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -96,11 +96,11 @@ class _ForYouBooksState extends State<ForYouBooks> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListBooks(booksItem: BookList.bookList),
-            SizedBox(
+            const ListBooks(booksItem: BookList.bookList),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -111,11 +111,11 @@ class _ForYouBooksState extends State<ForYouBooks> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListBooks(booksItem: BookList.bookList),
-            SizedBox(
+            const ListBooks(booksItem: BookList.bookList),
+            const SizedBox(
               height: 20,
             ),
           ],

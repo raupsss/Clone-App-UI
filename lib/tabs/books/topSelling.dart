@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, file_names
 
 import 'package:clone_app/constants/bookList.dart';
 import 'package:clone_app/widgets/ListTopSelling.dart';
@@ -31,9 +31,9 @@ class _TopSellingBookState extends State<TopSellingBook> {
                     borderRadius: BorderRadius.circular(5),
                   ),
                   padding:
-                      EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+                      const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
                   // color: Colors.red,
-                  child: Text("Price drops"),
+                  child: const Text("Price drops"),
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -44,9 +44,9 @@ class _TopSellingBookState extends State<TopSellingBook> {
                     borderRadius: BorderRadius.circular(5),
                   ),
                   padding:
-                      EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+                      const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
                   // color: Colors.red,
-                  child: Text("Family Share"),
+                  child: const Text("Family Share"),
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -57,18 +57,18 @@ class _TopSellingBookState extends State<TopSellingBook> {
                     borderRadius: BorderRadius.circular(5),
                   ),
                   padding:
-                      EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+                      const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
                   // color: Colors.red,
-                  child: Text("Reading Tools"),
+                  child: const Text("Reading Tools"),
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Column(
               children: [
-                ListTopSelling(booksItem: BookList.bookList),
+                const ListTopSelling(booksItem: BookList.bookList),
               ],
             )
           ],

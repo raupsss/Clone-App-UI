@@ -1,17 +1,8 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, avoid_unnecessary_containers, file_names
 
 import 'package:clone_app/constants/appList.dart';
-import 'package:clone_app/constants/bookList.dart';
-import 'package:clone_app/constants/gameList.dart';
 import 'package:clone_app/widgets/ListApps.dart';
-import 'package:clone_app/widgets/ListBook.dart';
-import 'package:clone_app/widgets/ListGames.dart';
 import 'package:flutter/material.dart';
-
-import '../../constants/offersGames.dart';
-import '../../constants/offersList.dart';
-import '../offers/game_offers.dart';
-import '../offers/list_offer_slide.dart';
 
 class ForYouApps extends StatefulWidget {
   const ForYouApps({Key? key}) : super(key: key);
@@ -45,11 +36,11 @@ class _ForYouAppsState extends State<ForYouApps> {
                 )
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListApps(appsItem: AppsList.appsList),
-            SizedBox(
+            const ListApps(appsItem: AppsList.appsList),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -60,11 +51,11 @@ class _ForYouAppsState extends State<ForYouApps> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListApps(appsItem: AppsList.appsList),
-            SizedBox(
+            const ListApps(appsItem: AppsList.appsList),
+            const SizedBox(
               height: 10,
             ),
             Text(
@@ -75,11 +66,11 @@ class _ForYouAppsState extends State<ForYouApps> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListApps(appsItem: AppsList.appsList),
-            SizedBox(
+            const ListApps(appsItem: AppsList.appsList),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -90,11 +81,11 @@ class _ForYouAppsState extends State<ForYouApps> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListApps(appsItem: AppsList.appsList),
-            SizedBox(
+            const ListApps(appsItem: AppsList.appsList),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -105,11 +96,11 @@ class _ForYouAppsState extends State<ForYouApps> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListApps(appsItem: AppsList.appsList),
-            SizedBox(
+            const ListApps(appsItem: AppsList.appsList),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -120,11 +111,11 @@ class _ForYouAppsState extends State<ForYouApps> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListApps(appsItem: AppsList.appsList),
-            SizedBox(
+            const ListApps(appsItem: AppsList.appsList),
+            const SizedBox(
               height: 20,
             ),
           ],

@@ -13,15 +13,12 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  bool isDark = true;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Clone App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        brightness: isDark ? Brightness.dark : Brightness.light,
-      ),
+      theme: ThemeData(brightness: Brightness.dark),
       home: const MyHome(title: 'Clone App'),
     );
   }

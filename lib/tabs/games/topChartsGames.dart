@@ -1,9 +1,7 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, prefer_const_literals_to_create_immutables, file_names, avoid_unnecessary_containers
 
-import 'package:clone_app/constants/bookList.dart';
 import 'package:clone_app/constants/gameList.dart';
 import 'package:clone_app/widgets/ListTopChartGame.dart';
-import 'package:clone_app/widgets/ListTopSelling.dart';
 import 'package:flutter/material.dart';
 
 class TopChartGames extends StatefulWidget {
@@ -33,9 +31,9 @@ class _TopChartGamesState extends State<TopChartGames> {
                     borderRadius: BorderRadius.circular(5),
                   ),
                   padding:
-                      EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+                      const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
                   // color: Colors.red,
-                  child: Text("Price drops"),
+                  child: const Text("Price drops"),
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -46,9 +44,9 @@ class _TopChartGamesState extends State<TopChartGames> {
                     borderRadius: BorderRadius.circular(5),
                   ),
                   padding:
-                      EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+                      const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
                   // color: Colors.red,
-                  child: Text("Family Share"),
+                  child: const Text("Family Share"),
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -59,18 +57,18 @@ class _TopChartGamesState extends State<TopChartGames> {
                     borderRadius: BorderRadius.circular(5),
                   ),
                   padding:
-                      EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+                      const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
                   // color: Colors.red,
-                  child: Text("Reading Tools"),
+                  child: const Text("Reading Tools"),
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Column(
               children: [
-                ListTopChartGame(gamesItem: GamesList.gamesList),
+                const ListTopChartGame(gamesItem: GamesList.gamesList),
               ],
             )
           ],

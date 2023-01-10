@@ -1,6 +1,9 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, prefer_const_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, prefer_const_constructors, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers
 
+import 'package:clone_app/tabs/books/genres.dart';
+import 'package:clone_app/tabs/games/eventGames.dart';
 import 'package:clone_app/tabs/games/forYouGames.dart';
+import 'package:clone_app/tabs/games/premiumGame.dart';
 import 'package:clone_app/tabs/games/topChartsGames.dart';
 import 'package:flutter/material.dart';
 
@@ -28,7 +31,7 @@ class _GamesState extends State<Games> {
               pinned: false,
               backgroundColor: ThemeData.dark().canvasColor,
               title: Container(
-                margin: const EdgeInsets.all(16.0),
+                margin: const EdgeInsets.all(8.0),
                 child: SearchBar(),
               ),
             ),
@@ -37,7 +40,6 @@ class _GamesState extends State<Games> {
               pinned: true,
               backgroundColor: ThemeData.dark().canvasColor,
               title: Container(
-                // width: MediaQuery.of(context).size.width,
                 child: SizedBox(
                   child: TabBar(
                     indicatorWeight: 3,
@@ -71,13 +73,12 @@ class _GamesState extends State<Games> {
               child: Container(
                 margin: const EdgeInsets.all(10.0),
                 height: MediaQuery.of(context).size.height,
-                // padding: EdgeInsets.all(50),
                 child: TabBarView(children: [
                   ForYouGames(),
                   TopChartGames(),
-                  Text("Hello 3"),
-                  Text("Hello 4"),
-                  Text("Hello 5"),
+                  EventGames(),
+                  Genres(),
+                  PremiumGame(),
                 ]),
               ),
             )

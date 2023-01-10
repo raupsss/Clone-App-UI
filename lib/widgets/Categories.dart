@@ -1,9 +1,7 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, prefer_const_constructors
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, prefer_const_constructors, sized_box_for_whitespace, file_names
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 
 class CategoriesClass extends StatefulWidget {
   final List<Map<String, dynamic>> categories;
@@ -54,7 +52,7 @@ class Category extends StatelessWidget {
           Row(
             children: [
               SizedBox(
-                width: 20,
+                width: 50,
               ),
               ClipRRect(
                 // borderRadius: BorderRadiusDirectional.circular(10),

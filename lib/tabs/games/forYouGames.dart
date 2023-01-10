@@ -1,11 +1,8 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, file_names, avoid_unnecessary_containers
 
-import 'package:clone_app/constants/bookList.dart';
 import 'package:clone_app/constants/gameList.dart';
-import 'package:clone_app/widgets/ListBook.dart';
 import 'package:clone_app/widgets/ListGames.dart';
 import 'package:flutter/material.dart';
-
 import '../../constants/offersGames.dart';
 import '../../constants/offersList.dart';
 import '../offers/game_offers.dart';
@@ -43,11 +40,11 @@ class _ForYouGamesState extends State<ForYouGames> {
                 )
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            GameOffers(offersGames: OfferGame.offersGame),
-            SizedBox(
+            const GameOffers(offersGames: OfferGame.offersGame),
+            const SizedBox(
               height: 10,
             ),
             Text(
@@ -58,10 +55,10 @@ class _ForYouGamesState extends State<ForYouGames> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListGames(gamesItem: GamesList.gamesList),
+            const ListGames(gamesItem: GamesList.gamesList),
             Text(
               "Realistic Games",
               style: TextStyle(
@@ -70,11 +67,11 @@ class _ForYouGamesState extends State<ForYouGames> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            GameOffers(offersGames: OfferGame.offersGame),
-            SizedBox(
+            const GameOffers(offersGames: OfferGame.offersGame),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -85,11 +82,11 @@ class _ForYouGamesState extends State<ForYouGames> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListOffers(offersData: OffersList.offers),
-            SizedBox(
+            const ListOffers(offersData: OffersList.offers),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -100,11 +97,11 @@ class _ForYouGamesState extends State<ForYouGames> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListOffers(offersData: OffersList.offers),
-            SizedBox(
+            const ListOffers(offersData: OffersList.offers),
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -115,11 +112,11 @@ class _ForYouGamesState extends State<ForYouGames> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            ListGames(gamesItem: GamesList.gamesList),
-            SizedBox(
+            const ListGames(gamesItem: GamesList.gamesList),
+            const SizedBox(
               height: 20,
             ),
           ],

@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables
+// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables, prefer_const_constructors, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
@@ -126,8 +126,6 @@ class OfferItem extends StatelessWidget {
                               ],
                             ),
                           ],
-                          // column = cross > kanan kiri, main > atas bawah
-                          // row = cross > atas bawah, main > kanan kiri
                         )
                       ],
                     ),
