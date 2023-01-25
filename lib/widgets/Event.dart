@@ -54,7 +54,7 @@ class EventGames extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 10),
-      height: MediaQuery.of(context).size.height,
+      // height: MediaQuery.of(context).size.height,
       child: Column(
         children: [
           Container(

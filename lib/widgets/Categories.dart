@@ -44,7 +44,7 @@ class Category extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 10),
-      height: 100,
+      // height: MediaQuery.of(context).size.height,
       // color: Colors.red,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -73,6 +73,9 @@ class Category extends StatelessWidget {
                 ),
               ),
             ],
+          ),
+          SizedBox(
+            height: 20,
           ),
         ],
       ),
